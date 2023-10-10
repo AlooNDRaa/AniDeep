@@ -1,5 +1,5 @@
 :root {
-  background-color: #371650;
+  background-color: #ffffff;
   color:#dee5e5 ;
 }
 
@@ -13,13 +13,16 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #794B98;
+  background-color: #0c0b0c;
   display: flex;
   width: 100%;
   height: 5rem;
   font-family: 'Libre Baskerville', serif;
 }
 
+.header-container:hover{
+  background-color: #252525;
+}
 
 .name-logo{
   display: flex;
@@ -47,7 +50,7 @@ body{
 
 .navbar-container{
   width: 100%;
-  background-color: #8f6aa9;
+  background-color: #131111;
 }
 
 .navbar-parts{
@@ -72,4 +75,4 @@ body{
 
 .icons-sidebar:hover{
   cursor: pointer;
-  color: black;}
+  color: rgb(0, 0, 0);}
