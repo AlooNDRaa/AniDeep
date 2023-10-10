@@ -1,78 +1,33 @@
-:root {
-  background-color: #ffffff;
-  color:#dee5e5 ;
+  /* Estilos fuera de boostrap */
+
+  :root{
+    margin: auto;
+    padding: 0;
+  }
+
+  .navbar{
+    height: 5rem;
+  }
+
+  .container-footer {
+    width: 100%;
+    display: flex;
+    height: 12em;
+    border-color: rgb(177, 170, 170) !important;
+    align-items: center;
+    padding: 10px;
+    background-color: #e6e6e6;
+    font-family: 'Libre Baskerville', serif;
+    position: fixed;
+    bottom: -10px;
+  }
+  
+  .icons-cont{
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+  }
+
+.icons{
+  color: black;
 }
-
-body{
-  margin: 0;
-}
-
-/* Header-content */
-
-.header-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0c0b0c;
-  display: flex;
-  width: 100%;
-  height: 5rem;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.header-container:hover{
-  background-color: #252525;
-}
-
-.name-logo{
-  display: flex;
-  align-items: center;
-  margin: 0.4rem;
-  padding: 0.2rem;
-}
-
-.log-page{
-  margin-left: 0.3rem;
-}
-
-.sign-in{
-  margin-right: 0.3rem;
-  cursor: pointer;
-}
-
-
-/* Sidebar-content */
-
-.side-home{
-  display: flex;
-  flex-direction: column
-}
-
-.navbar-container{
-  width: 100%;
-  background-color: #131111;
-}
-
-.navbar-parts{
-  display: flex;
-  justify-content: space-around;
-  padding: 0.5rem;
-}
-
-.icons-sidebar{
-  align-items: center;  
-  justify-content: space-around;
-  padding: 0.5rem;
-  font-family: 'Playfair Display', serif;
-}
-
-
-.icon1{
-  margin-left: 0.4rem;
-}
-
-
-
-.icons-sidebar:hover{
-  cursor: pointer;
-  color: rgb(0, 0, 0);}
