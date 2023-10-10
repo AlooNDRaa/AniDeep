@@ -1,38 +1,28 @@
-import{ useState } from 'react';
-
 export  function Login() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-  };
 
   return (
-    <div>
-      <h2>Iniciar Sesión</h2>
-      <form onSubmit={handleLogin}>
-        <label htmlFor="email">Correo Electrónico:</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-
-        <label htmlFor="password">Contraseña:</label>
-        <input
-          type="password"
-          id="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-
-        <button type="submit">Iniciar Sesión</button>
-      </form>
-    </div>
+    <main className="log-container">
+    <form className="form-cont">
+      <h1 className="text">Sign in</h1>
+  
+      <div className="form-floating">
+        <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
+        <label htmlFor="floatingInput">Email</label>
+      </div>
+      <div className="form-floating">
+        <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/>
+        <label htmlFor="floatingPassword">Password</label>
+      </div>
+  
+      <div className="form-check text-start my-3">
+        <input className="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault"/>
+        <label className="form-check-label" htmlFor="flexCheckDefault">
+          Remember me
+        </label>
+      </div>
+      <button className="button-desing btn  w-100 py-2" type="submit">Sign in</button>
+    </form>
+  </main>
   );
 }
 

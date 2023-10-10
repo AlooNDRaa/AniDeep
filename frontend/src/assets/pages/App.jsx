@@ -1,11 +1,23 @@
-import '../styles/app.css'
+import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
+import { Login } from './login';
 import { Home } from './home'
+import '../styles/app.css'
+import { GendersPage } from './genders';
+import { ErrorPage } from './errorpage';
 
 function App() {
 
   return (
     <>
-    <Home/>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Navigate to='/login'></Navigate>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route  path="/home" element={<Home/>}/>
+      <Route path='/genders' element={<GendersPage/>}/>
+      <Route path='*' element={<ErrorPage/>}/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
