@@ -7,7 +7,9 @@ export function Home() {
     return (<>
         <Header/>
         <h1 className="gender-text">Popular now</h1>
+        <div className="cardhomecontainer">
         <Cards/>
+        </div>
         <Footer/>
          </>
     )
