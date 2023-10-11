@@ -23,6 +23,9 @@ export function Header() {
              <Link to="/genders"><a className="nav-link">Genders</a></Link>   
               </li>
               <li className="nav-item">
+             <Link to="/myUser"><a className="nav-link">User</a></Link>   
+              </li>
+              <li className="nav-item">
                 <a className="nav-link active" href='https://lectortmo.com/' aria-disabled="true">Read more</a>
               </li>
             </ul>

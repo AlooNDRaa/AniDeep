@@ -4,6 +4,7 @@ import { Home } from './home'
 import '../styles/app.css'
 import { GendersPage } from './genders';
 import { ErrorPage } from './errorpage';
+// import { User } from './user';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Navigate to='/login'></Navigate>}/>
       <Route path="/login" element={<Login/>}/>
       <Route  path="/home" element={<Home/>}/>
+      {/* <Route path='/myUser' element={<User/>}/> */}
       <Route path='/genders' element={<GendersPage/>}/>
       <Route path='*' element={<ErrorPage/>}/>
     </Routes>

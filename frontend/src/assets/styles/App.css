@@ -3,6 +3,7 @@
   body{
     margin: auto;
     box-sizing: border-box;
+    width: 100%;
 
   }
 
@@ -41,12 +42,16 @@
 
 .log-container{
     display: grid;
-    place-items: center;
+    place-items: center; 
+    height: 100vh;
+    background-image:linear-gradient(rgba(172, 171, 171, 0.8), rgba(0, 0, 0, 0.6)), url('https://wallpapercave.com/wp/wp8432583.jpg');
+    background-size: cover;
     
 }
 
 .text{
   padding: 2rem;
+  color: #000000;
 }
 
 .button-desing{
@@ -55,17 +60,19 @@
 }
 
 main{
-  margin-top: 11rem !important; 
   text-align: center;
 }
 
 .form-floating{
   width: 20rem;
+  margin: 1rem;
 }
 
 a{
   text-decoration: none;
 }
+
+
 
 
 /* Cards styles */
@@ -222,3 +229,35 @@ ul{
   font-weight:bold;
   color: #e6e6e6;
 }
+
+
+/* User part */
+/* 
+.page-user{
+  height: 100vh;
+}
+
+.usercontainer{
+  background-color: #e6e6e6;
+  height: 18rem;
+  border-bottom: 1px #d5d4d4 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+
+
+.img-user{
+  width: 20rem;
+  align-items: center;
+}
+
+.disable{
+  color: #000000 !important;
+}
+
+.active{
+  background-color: #6569bd !important;
+  border-radius: 0.3rem !important;
+} */
