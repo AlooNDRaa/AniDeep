@@ -7,7 +7,7 @@ import { ErrorPage } from './errorpage';
 // import { User } from './user';
 
 function App() {
-
+  
   return (
     <>
     <BrowserRouter>
@@ -16,7 +16,7 @@ function App() {
       <Route path="/login" element={<Login/>}/>
       <Route  path="/home" element={<Home/>}/>
       {/* <Route path='/myUser' element={<User/>}/> */}
-      <Route path='/genders' element={<GendersPage/>}/>
+      <Route path='/repertoire' element={<GendersPage/>}/>
       <Route path='*' element={<ErrorPage/>}/>
     </Routes>
     </BrowserRouter>

@@ -20,7 +20,7 @@ export function Header() {
              <Link to='/home'><a className="nav-link active" aria-current="page">Home</a></Link> 
               </li>
               <li className="nav-item">
-             <Link to="/genders"><a className="nav-link">Genders</a></Link>   
+             <Link to="/repertoire"><a className="nav-link">Repertoire</a></Link>   
               </li>
               <li className="nav-item">
              <Link to="/myUser"><a className="nav-link">User</a></Link>   
