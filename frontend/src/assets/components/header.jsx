@@ -1,5 +1,6 @@
 import {BsIncognito} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import {TbPointerSearch} from 'react-icons/tb';
 import '../styles/App.css';
 
 
@@ -31,7 +32,7 @@ export function Header() {
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-outline-success" type="submit">Search</button>
+              <button className="btn btn-outline-success" type="submit"><TbPointerSearch/></button>
             </form>
           </div>
         </div>
