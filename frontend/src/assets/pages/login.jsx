@@ -1,9 +1,12 @@
+import {Link} from 'react-router-dom';
+
+
 export  function Login() {
 
   return (
     <main className="log-container">
     <form className="form-cont">
-      <h1 className="text">Sign in</h1>
+      <h1 className="text">Register Now</h1>
   
       <div className="form-floating">
         <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
@@ -20,7 +23,9 @@ export  function Login() {
           Remember me
         </label>
       </div>
-      <button className="button-desing btn  w-100 py-2" type="submit">Sign in</button>
+    <Link to='/home'>
+      <button className="button-desing btn  w-100 py-2" >Sign in</button>
+      </Link>
     </form>
   </main>
   );

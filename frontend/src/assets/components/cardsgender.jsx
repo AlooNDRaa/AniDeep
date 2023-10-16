@@ -23,7 +23,7 @@ export function CardsG() {
               <div>
                 <h3 className="text-white fs-5">{anime.name}</h3>
                 <p className="text-desc">{anime.description}</p>
-                <a className="text-url">{anime.view_url}</a>
+                <a href={anime.view_url} className="text-url">{anime.view_url}</a>
               </div>
             </div>
           </div>
