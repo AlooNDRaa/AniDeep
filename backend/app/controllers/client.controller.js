@@ -1,6 +1,6 @@
-const Client = require("../models/client.model.js");
+const Anime = require("../models/client.model.js");
 
-// Create and Save a new Client
+// Create and Save a new Anime
 exports.create = (req, res) => {
   // Validate request
   if (!req.body) {
@@ -9,19 +9,20 @@ exports.create = (req, res) => {
     });
   }
 
-  // Create a Client
-  const client = new Client({
-    nameClient: req.body.nameClient,
-    lastnameClient: req.body.lastnameClient,
-    imgURL: req.body.imgURL || false
+  // Create an Anime
+  const anime = new Anime({
+    name: req.body.name,
+    description: req.body.description,
+    image_url: req.body.image_url,
+    view_url: req.body.view_url || ''
   });
 
-  // Save Client in the database
-  Client.create(client, (err, data) => {
+  // Save Anime in the database
+  Anime.create(anime, (err, data) => {
     if (err)
       res.status(500).send({
         message:
-          err.message || "Some error occurred while creating the Client."
+          err.message || "Some error occurred while creating the Anime."
       });
     else res.send(data);
   });

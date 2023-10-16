@@ -1,10 +1,10 @@
 module.exports = app => {
-  const clients = require("../controllers/client.controller.js");
+  const animes = require("../controllers/client.controller.js");
 
-  var router = require("express").Router();
+  let router = require("express").Router();
 
-  // Create a new Client
-  router.post("/", clients.create);
+// Create a new Anime
+router.post("/", animes.create);
 
-  app.use('/api/clients', router);
+app.use('/api/animes', router);
 };

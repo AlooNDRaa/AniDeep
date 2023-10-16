@@ -1,23 +1,24 @@
 const sql = require("./dbConnect.js");
 
 // constructor
-const Client = function(client) {
-  this.nameClient = client.nameClient;
-  this.lastnameClient = client.lastnameClient;
-  this.imgURL = client.imgURL;
+const Anime = function(anime) {
+  this.name = anime.name;
+  this.description = anime.description;
+  this.image_url = anime.image_url;
+  this.view_url = anime.view_url;
 };
 
-Client.create = (newClient, result) => {
-  sql.query("INSERT INTO clients SET ?", newClient, (err, res) => {
+Anime.create = (newAnime, result) => {
+  sql.query("INSERT INTO Anime SET ?", newAnime, (err, res) => {
     if (err) {
       console.log("ERROR: ", err);
       result(err, null);
       return;
     }
 
-    console.log("created client: ", { id: res.insertId, ...newClient });
-    result(null, { id: res.insertId, ...newClient });
+    console.log("Created anime: ", { id: res.insertId, ...newAnime });
+    result(null, { id: res.insertId, ...newAnime });
   });
 };
 
-module.exports = Client;
+module.exports = Anime;
