@@ -19,8 +19,7 @@ In its full implementation, you should be able to navigate around the entire pag
 ![error](./frontend/src/assets/img/readmeimg/error.png)
 
 
-- Figma desing:
-![Figma](https://www.figma.com/file/7w6QD1G9QfyMuA6VwS9X9R/Untitled?type=design&node-id=0-1&mode=design&t=8gl2a2VbQ3Xzl0Et-0)
+- Figma desing - [figma](https://www.figma.com/file/7w6QD1G9QfyMuA6VwS9X9R/Untitled?type=design&node-id=0-1&mode=design&t=8gl2a2VbQ3Xzl0Et-0)
 
 ### Built with
 
