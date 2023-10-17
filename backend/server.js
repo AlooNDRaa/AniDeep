@@ -12,36 +12,33 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const Anime = require('./app/models/client.model'); 
+const Anime = require('./app/models/client.model'); // Asegúrate de que el nombre del modelo sea correcto
 
 const animes = require('./myapi/animeclass.json');
 
 animes.forEach(element => {
-  const animes = new Anime({
+  const anime = new Anime({
     name: element.name,
     description: element.description,
     image_url: element.image_url,
     view_url: element.view_url || ''
   });
 
-  Anime.create(animes, (err, data) => {
-    if (err) {
-      console.error("Error al crear el anime:", err);
-    } else {
-      console.log("Anime guardado con éxito:", data);
-    }
-  });
+  // Anime.create(anime, (err, data) => {
+  //   if (err) {
+  //     console.error("Error al crear el anime:", err);
+  //   } else {
+  //     console.log("Anime guardado con éxito:", data);
+  //   }
+  // });
+
+  //Con esto se me repite el guardado de información (LLanto)
 });
 
-
+// Ruta para obtener y guardar datos de anime desde una API externa
 app.get('/myapi/animeclass', (req, res) => {
-  res.json(animes);
-} )
-
-app.get('/myapi/animeclass/date', (req, res) => {
   res.json({ message: "Datos de anime guardados con éxito" });
 });
-
 
 require("./app/routes/client.routes.js")(app);
 
