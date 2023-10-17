@@ -35,9 +35,13 @@ animes.forEach(element => {
   //Con esto se me repite el guardado de información (LLanto)
 });
 
-app.get('/myapi/animeclass', (req, res) => {
+app.get('/myapi/animeclass/date', (req, res) => {
   res.json({ message: "Datos de anime guardados con éxito" });
 });
+
+app.get('/myapi/animeclass', (req, res) => {
+  res.json(animes)
+})
 
 require("./app/routes/client.routes.js")(app);
 
