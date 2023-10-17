@@ -3,8 +3,6 @@ module.exports = app => {
 
   let router = require("express").Router();
 
-// Create a new Anime
-
 app.use('/api/animes', router);
 
 };

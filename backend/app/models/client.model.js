@@ -1,6 +1,5 @@
 const sql = require("./dbConnect.js");
 
-// constructor
 const Anime = function(anime) {
   this.name = anime.name;
   this.description = anime.description;

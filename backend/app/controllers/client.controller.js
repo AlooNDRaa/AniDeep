@@ -1,8 +1,6 @@
 const Anime = require("../models/client.model.js");
 
-// Create and Save a new Anime
 exports.create = (req, res) => {
-  // Validate request
   if (!req.body) {
     res.status(400).send({
       message: "Content can not be empty!"

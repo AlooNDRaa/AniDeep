@@ -12,7 +12,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const Anime = require('./app/models/client.model'); // Asegúrate de que el nombre del modelo sea correcto
+const Anime = require('./app/models/client.model');
 
 const animes = require('./myapi/animeclass.json');
 
@@ -35,7 +35,6 @@ animes.forEach(element => {
   //Con esto se me repite el guardado de información (LLanto)
 });
 
-// Ruta para obtener y guardar datos de anime desde una API externa
 app.get('/myapi/animeclass', (req, res) => {
   res.json({ message: "Datos de anime guardados con éxito" });
 });
