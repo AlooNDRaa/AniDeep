@@ -24,13 +24,13 @@ animes.forEach(element => {
     view_url: element.view_url || ''
   });
 
-  // Anime.create(anime, (err, data) => {
-  //   if (err) {
-  //     console.error("Error al crear el anime:", err);
-  //   } else {
-  //     console.log("Anime guardado con éxito:", data);
-  //   }
-  // });
+   Anime.create(anime, (err, data) => {
+     if (err) {
+       console.error("Error al crear el anime:", err);
+     } else {
+      console.log("Anime guardado con éxito:", data);
+     }
+   });
 
   //Con esto se me repite el guardado de información (LLanto)
 });

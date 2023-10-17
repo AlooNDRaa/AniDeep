@@ -3,6 +3,15 @@ module.exports = app => {
 
   let router = require("express").Router();
 
-app.use('/api/animes', router);
+  router.post("/", animes.create);
 
+  router.get("/", animes.findAll);
+
+  router.get("/:animeId", animes.findOne);
+
+  router.put("/:animeId", animes.update);
+
+  router.delete("/:animeId", animes.delete);
+
+  app.use('/api/animes', router);
 };
