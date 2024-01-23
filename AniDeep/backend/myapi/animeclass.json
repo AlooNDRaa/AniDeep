@@ -1,0 +1,134 @@
+ [
+        {
+            "id": 1,
+            "name": "Jujustsu Kaisen",
+            "description": "La historia gira en torno al estudiante Yūji Itadori, quien se une a una organización secreta de hechiceros para matar a una poderosa maldición llamada Ryōmen Sukuna tras convertirse en su anfitrión.",
+            "image_url":"https://cloudfront-us-east-1.images.arcpublishing.com/infobae/XXZ5BOERBVEWNHARP3ANRBA3FA.jpg",
+            "view_url": "https://ww3.animeonline.ninja/temporada/jujutsu-kaisen-temporada-2/"
+        },
+        {
+            "id": 2,
+            "name": "Spy X Family",
+            "description": "Es una serie de anime sobre un espía que debe formar rápidamente una familia central para mantener el equilibrio de poder entre dos naciones fronterizas, Westalis y Ostania, que disfrutan de un periodo de coexistencia pacífica tras años de guerra.",
+            "image_url":"https://es.web.img3.acsta.net/pictures/21/11/22/10/54/0321052.jpg",
+            "view_url":"https://www1.otakustv.com/anime/spy-x-family/episodio-1"
+        },
+        {
+            "id": 3 ,
+            "name": "Blue Lock",
+            "description": "En el Mundial de 2018, Japón no pasó de dieciseisavos… Tras este fracaso, y con la intención de conseguir que Japón ganase por fin una Copa del Mundo, la Asociación de Fútbol de Japón reunió a 300 delanteros de ligas estudiantiles en unas instalaciones de entrenamiento llamadas “BLUE LOCK”.",
+            "image_url":"https://static.hdrezka.ac/i/2022/10/9/u70087eac2b1dhl82q36l.png",
+            "view_url": "https://www3.animeflv.net/ver/blue-lock-1"
+        },
+        {
+            "id" :  4,
+            "name" :"One Piece",
+            "description": "One Piece narra la historia de un joven llamado Monkey D. Luffy, que inspirado por su amigo pirata Shanks, comienza un viaje para alcanzar su sueño, ser el Rey de los piratas, para lo cual deberá encontrar el tesoro One Piece dejado por el anterior rey de los piratas Gol D. Roger.",
+            "image_url": "https://elcomercio.pe/resizer/QUglTPdZDCUXkVzRo0RM7xDHwQo=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OSH2ZOJCCRAKTPYJT4BSF7M644.jpg",
+            "view_url": "https://www.crunchyroll.com/es/series/GRMG8ZQZR/one-piece"
+        },
+        {
+            "id" :  5 ,
+            "name" :"Horimiya",
+            "description": "Kyôko es una alumna modélica y popular que al llegar a casa se convierte en una chica hogareña muy discreta. Miyamura, su compañero de clase, es un tipo del montón con cierto aire de friki que en sus ratos libres se transforma en un chico muy atractivo con piercings y mucho estilo.",
+            "image_url": "https://www.anmosugoi.com/wp-content/uploads/2021/02/Horimiya-Imagen-Visual.jpg",
+            "view_url": "https://jkanime.net/horimiya/1/"
+        },
+        {
+            "id" :  6,
+            "name" :"Kimetsu no yaiba",
+            "description": "Tanjiro emprende un viaje arriesgado para buscar una cura a la maldición de su hermana y vengar a su familia asesinada por un demonio.",
+            "image_url": "https://ramenparados.com/wp-content/uploads/2019/03/kimetsu-no-yaiba-poster-1.jpg",
+            "view_url": "https://jkanime.net/kimetsu-no-yaiba/1/"
+        },
+        {
+            "id" :  7,
+            "name" :"Otome game no hametsu flag katarina",
+            "description": "La única hija del duque Claes, Catarina, era orgullosa y egoísta porque fue malcriada por sus padres. Sin embargo, a la edad de ocho años, su padre la llevó al castillo real donde ella golpea su cabeza contra una piedra al tropezarse.",
+            "image_url": "https://ramenparados.com/wp-content/uploads/2020/06/hamehura-poster.jpg",
+            "view_url": "https://www3.animeflv.net/anime/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta"
+        },
+        {
+            "id" :  8,
+            "name" :"Fruit basket",
+            "description": "La familia de Yuki guarda un extraño secreto: si alguien del sexo opuesto abraza a uno de ellos, este se transformará en un animal del zodíaco chino.",
+            "image_url":"https://i.pinimg.com/1200x/da/c9/e5/dac9e541466eca972508ad1aa21b378c.jpg",
+            "view_url": "https://www1.otakustv.com/index.php/anime/fruits-basket-2019-0fexb74v/episodio-1"
+        },
+        {
+            "id" :  9,
+            "name" :"Yume-iro patissiere",
+            "description": "a historia se centra en una niña de catorce años llamada Amano Ichigo que sueña con ser una pastelera como su difunta abuela, pero, es muy torpe y no sabe sobre cocina. Un profesional de dulces, Henri Lucas, le dice que se inscriba en la Academia St. Marie; una escuela culinaria de dulces.",
+            "image_url": "https://static.zerochan.net/Yumeiro.P%C3%A2tissi%C3%A8re.full.265931.jpg",
+            "view_url": "https://anime-flv.net/ver/yumeiro-patissiere/"
+        },
+        {
+            "id" :  10,
+            "name" :"Devilman Crybaby",
+            "description": "Los espíritus malignos deambulan por la Tierra y la humanidad se sumerge en el caos. Un niño demonio y Ryo, su amigo misterioso, en una guerra despiadada contra el mal.",
+            "image_url": "https://es.web.img2.acsta.net/pictures/17/11/30/08/33/5407948.jpg",
+            "view_url": "https://ww3.animeonline.ninja/episodio/devilman-crybaby-cap-1/"
+        },
+        {
+            "id" :  11,
+            "name" :"Another",
+            "description": "Another sigue la historia de Koichi Sakakibara, un chico que se traslada al instituto Yomiyama North. Allí conoce a Mei Misaki, una estudiante aparentemente tranquila y tímida a la que muchos de sus compañeros de clase e incluso la maestra ignora.",
+            "image_url": "https://i.pinimg.com/736x/f4/80/e6/f480e631e522071bbebd221d49348a54.jpg",
+            "view_url": "https://ww3.animeonline.ninja/online/another/"
+        },
+        {
+            "id" :  12,
+            "name" :"Elfen Lied",
+            "description": "Esta historia trata sobre la especie de diclonius, una mutación del ser humano con cuernos, y su violenta relación con el resto de la humanidad.",
+            "image_url": "https://i.pinimg.com/originals/8c/52/83/8c5283651cfeb5aafdbebbf32b3f0b3b.jpg",
+            "view_url": "https://www3.animeflv.net/ver/elfen-lied-1"
+        },
+        {
+            "id" :  13,
+            "name" :"Code Geass",
+            "description": "se desarrolla en una realidad alternativa donde el Sacro Imperio de Britannia, una superpotencia internacional, ha conquistado más de un tercio del planeta. El mundo, principalmente, es dividido entre esta y otras dos superpotencias: la Federación China y la Unión Europea",
+            "image_url": "https://i.pinimg.com/474x/a8/e7/e2/a8e7e2e90dd864463675615af88450fd.jpg",
+            "view_url": "https://ww3.animeonline.ninja/episodio/code-geass-cap-1/"
+        },
+        {
+            "id" :  14,
+            "name" :"Parasyte",
+            "description": "Un adolescente combate un violento ataque de parásitos extraterrestres con la ayuda de una dócil criatura que se ha apoderado de su mano derecha.",
+            "image_url": "https://i.pinimg.com/564x/4a/47/a6/4a47a61e75887684dbf412ffcb77df66.jpg",
+            "view_url": "https://ww3.animeonline.ninja/episodio/parasyte-kiseijuu-cap-1/"
+        },
+        {   "id" :  15,
+            "name" :"Mononoke",
+            "description": "Un hombre misterioso, conocido solo como el Boticario, recorre el Japón feudal para exorcizar a los espíritus malignos comprendiendo su forma, verdad y razón.",
+            "image_url": "https://i.pinimg.com/736x/99/7c/d5/997cd58ffa5e44ce310d6a18e5a32a5d.jpg",
+            "view_url": "https://www3.animeflv.net/ver/mononoke-1"
+        },
+        {
+            "id" :  16,
+            "name" :"Shirokuma Cafe",
+            "description": "Un amable oso polar blanco renuncia a su aburrido trabajo y abre una cafetería cerca del zoológico. Ama contar cuentos y bromear. Una pareja de humanos dueños de un restaurante se lo llevaron luego de que lo vieron atrapado en un iceberg.",
+            "image_url": "https://i.ebayimg.com/images/g/Om8AAOSwj8VckmHh/s-l1600.jpg",
+            "view_url": "https://www3.animeflv.net/ver/shirokuma-cafe-1"
+        },
+        {
+            "id" :  17,
+            "name" :"Nana",
+            "description": "Nana Ōsaki es una cantante punk cuyo único deseo es poder debutar con su grupo y superar a la banda Trapnest, en la cual su exnovio, Ren Honjō, se desempeña como guitarrista.",
+            "image_url": "https://i.pinimg.com/736x/54/cd/a3/54cda3fecd1c19516a920dc5eb7247c5.jpg",
+            "view_url": "https://www3.animeflv.net/ver/nana-1"
+        },
+        {
+            "id" :  18,
+            "name" :"Akkun to kanojo",
+            "description": "Se sabe que Atsuhiro Akkun Kagari es duro con su novia Non Nontan Katagiri, pero está secretamente enamorado de ella, la sigue regularmente y la vigila como un acosador. La serie sigue sus interacciones entre ellos y con sus compañeros de clase.",
+            "image_url": "https://4.bp.blogspot.com/-kZqKcq829o0/WyODCCPasTI/AAAAAAAD5Rc/KUfJgnKA_WgNySbUur9ehBewdKDYw66nQCK4BGAYYCw/s1600/akkun-2nd-cour-visual.jpg",
+            "view_url": "https://jkanime.net/akkun-to-kanojo/1/"
+        },
+        {
+            "id" :  19,
+            "name" :"Soul Eater",
+            "description": "Maka Albarn, Death The Kid y Black Star son tres jóvenes estudiantes de Shibusen. Su objetivo en la vida es conseguir graduarse y convertirse en Técnicos de Guadaña Mortal y Filo Demoníaco, título que les da la capacidad para dar sentencias de muerte a humanos que se han desviado del buen camino.",
+            "image_url": "https://i.pinimg.com/originals/2c/18/1f/2c181f7bcdda057cb6aabd6ac88a1294.jpg",
+            "view_url": "https://www3.animeflv.net/ver/soul-eater-1"
+        }
+    ]
